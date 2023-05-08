@@ -99,12 +99,10 @@
 		5A2E5E2A2A09042C006CBDE9 /* mapkit test */ = {
 			isa = PBXGroup;
 			children = (
-				5A2E5E2B2A09042C006CBDE9 /* AppDelegate.swift */,
-				5A2E5E2D2A09042C006CBDE9 /* SceneDelegate.swift */,
-				5A2E5E2F2A09042C006CBDE9 /* ViewController.swift */,
-				5A2E5E312A09042C006CBDE9 /* Main.storyboard */,
+				5A2E5E5C2A090527006CBDE9 /* controllers */,
+				5A2E5E5B2A09051E006CBDE9 /* app */,
+				5A2E5E5D2A090538006CBDE9 /* views */,
 				5A2E5E342A090430006CBDE9 /* Assets.xcassets */,
-				5A2E5E362A090430006CBDE9 /* LaunchScreen.storyboard */,
 				5A2E5E392A090430006CBDE9 /* Info.plist */,
 			);
 			path = "mapkit test";
@@ -125,6 +123,32 @@
 				5A2E5E4E2A090431006CBDE9 /* mapkit_testUITestsLaunchTests.swift */,
 			);
 			path = "mapkit testUITests";
+			sourceTree = "<group>";
+		};
+		5A2E5E5B2A09051E006CBDE9 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				5A2E5E2B2A09042C006CBDE9 /* AppDelegate.swift */,
+				5A2E5E2D2A09042C006CBDE9 /* SceneDelegate.swift */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		5A2E5E5C2A090527006CBDE9 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5A2E5E2F2A09042C006CBDE9 /* ViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		5A2E5E5D2A090538006CBDE9 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				5A2E5E312A09042C006CBDE9 /* Main.storyboard */,
+				5A2E5E362A090430006CBDE9 /* LaunchScreen.storyboard */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
